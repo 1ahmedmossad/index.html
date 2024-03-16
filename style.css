@@ -1,0 +1,1039 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+*{
+    font-family: 'Poppins', sans-serif;
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;   
+}
+header{
+    background-color: hwb(0 100% 0%);
+    width: 100%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index:999%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size:  1.8em;
+    height: auto;
+    font-weight: 700;
+
+}
+.navmenu{
+    display: flex;
+
+}
+.navmenu a{
+    text-decoration: none;
+    color: black;
+    font-size:  16px; 
+    text-transform: capitalize;
+    padding: 10px 20px;
+    font-weight: 400;
+    transition: all .42s ease;
+
+}
+.navmenu a:hover{
+    color: red;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: black;
+    font-size:20px ;
+    font-weight: 600;
+    padding:  0.9rem;
+    transition: all .42s ease;
+    
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color: rgb(255, 0, 0);
+
+}
+#menu-icon{
+    font-size: 35px;
+    color: #2c2c2c;
+    z-index:10001 ;
+    cursor: pointer;
+}
+section{
+    padding: 100px 200px;
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(images/WhatsApp\ Image\ 2023-12-20\ at\ 01.26.44_1efb1e40.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.main-text h1{
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+
+
+}
+.main-text p{
+    color:white;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main-text h4{
+    color:burlywood;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 800;
+
+}
+.main-btn{
+    display: inline-block;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+text-transform: capitalize;
+border: 2px solid white;
+padding: 12px 25px;
+transition: all .42s ease;
+text-decoration: noun;
+}
+.main-btn:hover{
+    background-color: white;
+    color: black;
+}
+.main-btn i{
+    vertical-align:middle;
+}
+header.sticky{
+  color: #fff;
+  Padding :20px 10%;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0/10%);
+
+
+}
+/* wemen's Clothing */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 0;
+} 
+.center_text h1{
+  color: rgb(113, 64, 4);
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+} 
+.center_text span {
+color:rgb(113, 64, 4);
+}
+.coats{
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row{
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 90%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn{
+  width: 90%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.coats-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+
+#coats{
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row{
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 90%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn{
+  width: 90%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.coats-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+.Pump {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.ro{
+  position: relative;
+  transition: all .40s;
+}
+.ro img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.co{
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.ro img:hover{
+  transform: scale(0.9);
+}
+.Pump-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.pr
+{
+color:#c30d0d
+}
+.pr h3{
+  color:#794007
+}
+.pr del{
+  color: #0b0b0b;
+}
+
+.sweatshirts {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.r {
+  position: relative;
+  transition: all .40s;
+}
+.r img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.cou{
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.r img:hover{
+  transform: scale(0.9);
+}
+.sweatshirts-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: rgb(242, 245, 245);
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.pri
+{
+color:#c30d0d
+}
+.pri h3{
+  color:#794007
+}
+.pri del{
+  color: #0b0b0b;
+}
+
+.Hoodies {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.r {
+  position: relative;
+  transition: all .40s;
+}
+.r img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.cou{
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.r img:hover{
+  transform: scale(0.9);
+}
+.sweatshirts-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.pri
+{
+color:#c30d0d
+}
+.pri h3{
+  color:#794007
+}
+.pri del{
+  color: #0b0b0b;
+}
+
+.Hoodies-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+
+
+.Skirts {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.w {
+  position: relative;
+  transition: all .40s;
+}
+.w img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.coul {
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.w img:hover{
+  transform: scale(0.9);
+}
+.Skirts-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.pric
+{
+color:#c30d0d
+}
+.pric h3{
+  color:#794007
+}
+.pric del{
+  color: #0b0b0b;
+}
+
+.Pants {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row {
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.com {
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.Pants-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+
+.Dresses {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row {
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn {
+  width: 50%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.Dresses-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+
+#Dresses {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row {
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn {
+  width: 50%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.Dresses-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+
+.Dre {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row {
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn {
+  width: 50%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.Dresses-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+
+#Dre {
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.row {
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn {
+  width: 50%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.Dresses-text h3 {
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.price
+{
+color:#c30d0d
+}
+.price h3{
+  color:#794007
+}
+.price del{
+  color: #0b0b0b;
+}
+.New{
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;  
+  border: none;
+}
+.roc{
+  position: relative;
+  transition: all .40s;
+}
+.roc img{
+  margin: 20px 280px;
+  width: 550px;
+  height: auto;
+  transition: all .40s;
+}
+.coumn{
+  width: 550px;
+  height: auto;
+  transition: all .40s;
+}
+.roc img:hover{
+  transform: scale(0.9);
+}
+.center_text h2 {
+  color: rgb(113, 64, 4);
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.video {
+  margin: 20px 300px;
+  width: 550px;
+  height: auto;
+  transition: all 40s;
+}
+/bags/
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.cards h1{
+  text-align: center;
+  color: #794007;
+  font-size: 70;
+}
+.cards img{
+  margin: 0 30%;
+  margin-right: auto;
+  width: 550px;
+}
+.cards h2{
+  text-align: center;
+  color: #794007;
+  font-size: 50;
+}
+.sale_grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.sale_card{
+  position: relative;
+  overflow: hidden;
+}
+
+.sale_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.sale_title{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.sale_title span{
+  font-size: 2.5rem;
+}
+.sale_subtitle{
+  font-size: 1rem;
+}
+
+.sale_btn{
+  margin-top: 2rem;
+  color: white;
+  background-color: #000;
+}
+
+.sale_card::before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: -100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+}
+
+.sale_card:hover .sale_btn{
+  color: #000;
+  background-color: hwb(0 98% 1%);
+}
+.sale_card img{
+  max-width: 350px;
+  margin: auto;
+}
+
+.new_collection h2{
+  text-align: center;
+  color: #794007;
+  font-size: 50;
+}
+.new_collection img{
+  margin: 0 30%;
+  margin-right: auto;
+  width: 550px;
+}
+
+.new_collection_cross{
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  border: none;
+}
+.row{
+  position: relative;
+  transition: all .40s;
+}
+.row img{
+  margin: 20px;
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.coulmn{
+  width: 70%;
+  height: auto;
+  transition: all .40s;
+}
+.row img:hover{
+  transform: scale(0.9);
+}
+.new_collection_text h3{
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  background-color: #27b737;
+  padding: 3px 10px;
+  border-radius: 2px;
+}
+.new_collection_cross p{
+  color: #c30d0d;
+}
+.new_collection_text h4{
+  color: #794007;
+}
+.new_collection_back{
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  border: none;
+}
+.new_collection_back p{
+  color: #c30d0d;
+}
+
+.new_collection_lap{
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  border: none;
+}
+.new_collection_lap p{
+  color: #c30d0d;
+}
+
+@media(max-width:1023px)
+{header{
+  padding:12px 2px;
+  transition: 4s;
+}}
+@media(max-width:520px){
+.main-text h1{
+  font-size:50px ;
+  transition: 4s;
+}
+.main- text p{
+  font-size:18px;
+  transition:.4s;
+}
+.main-btn{
+  padding:10px 20px;
+  transition: .4s;
+}
+}
+@media(max-width:280px){
+  .navmenu{
+    position: absolute;
+    top: 100%;
+    right: -100px;
+    width: 300px;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 30px;
+    transition: all .42s;
+  }
+  .navmenu a{
+    display:block;
+    margin: 18px 0;
+
+  }
+  .navmenu.open{
+    right: 0;
+
+  }
+}
+#contect{padding:9rem 0;
+background:#fff
+} 
+#contect .container {
+    max-width: 900px;
+  }
+  
+  #contect .contact-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: CENTER;
+  }
+  
+  #contect .contact-info {
+    width: 70%;
+  }
+  
+  #contect .contact-info div {
+    margin: 30px 0;
+    line-height: 0.9;
+  }
+  
+  #contect .contact-info h3 {
+    font-size: 30px;
+  }
+
+#contect .contact-info p {
+  color: #161414;
+}
+
+#contect .contact-info p i {
+  color: #1c1a16;
+  margin-right: 10px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 30%;
+  margin: 50px auto;
+  background-color: #807c76;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(28, 26, 26, 0.4);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select {
+  width: calc(100% - 12px);
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #b2a374;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(190, 170, 128) 65, 24;
+  color:  #848d84;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(158, 149, 111);
+}
